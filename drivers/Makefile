@@ -196,7 +196,4 @@ obj-$(CONFIG_DPLL)		+= dpll/
 
 obj-$(CONFIG_S390)		+= s390/
 
-#Re-Kernel Support
-obj-$(CONFIG_REKERNEL)		+= rekernel/
-
 obj-$(CONFIG_KSU) += kernelsu/
